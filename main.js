@@ -22,7 +22,7 @@ writeFile(folder + todayFolderId + ".metadata", folderMeta, () => {});
     console.log("Downloading news list...");
     const hnRaw = await htmlRaw("https://news.ycombinator.com/news");
     const hnParsed = new JSDOM(hnRaw);
-    const stories = hnParsed.window.document.getElementsByClassName("storylink");
+    const stories = hnParsed.window.document.getElementsByClassName("titlelink");
 
     let numArticle = stories.length;
     let numDone = 0;
