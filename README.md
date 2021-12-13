@@ -20,12 +20,12 @@ opkg install node-npm
 ## How to use
 1. Clone repo:
 ```bash
-git clone https://github.com/khanhas/hackernews2remarkable
+git clone https://github.com/asierzapata/hackernews2remarkable
 ```
 
 If you don't have `git`, just download repo zip file and unzip:
 ```bash
-wget "https://github.com/khanhas/hackernews2remarkable/archive/main.zip" -O "hackernews2remarkable.zip"
+wget "https://github.com/asierzapata/hackernews2remarkable/archive/main.zip" -O "hackernews2remarkable.zip"
 unzip "hackernews2remarkable.zip"
 ```
 
